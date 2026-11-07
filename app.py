@@ -252,8 +252,8 @@ name = st.sidebar.text_input("الاسم الكريم", "الباحث الروح
 gender = st.sidebar.selectbox("الجنس", ["ذكر", "أنثى"])
 birth_date = st.sidebar.date_input(
     "تاريخ الميلاد",
-    datetime.date(1990, 1, 1),
-    min_value=datetime.date(1950, 1, 1),
+    datetime.date(2005, 1, 1),
+    min_value=datetime.date(1960, 1, 1),
 )
 
 # حساب المصفوفة الأساسية
